@@ -3,11 +3,11 @@ const menuBtn = document.querySelector("#menu-btn");
 const closeBtn = document.querySelector("#close-btn");
 const themeToggler = document.querySelector(".theme-toggler");
 
-const mincho = document.querySelector(".title");
+// const badminton = document.querySelector(".title");
 
-mincho.onclick = () => {
-  window.location.href = "../mincho/index.html";
-};
+// badminton.onclick = () => {
+//   window.location.href = "../badminton/index.html";
+// };
 
 // show sidebar
 menuBtn.addEventListener("click", () => {
